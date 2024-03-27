@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News page</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <ul class="navbar">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./about.html">About</a></li>
+      </ul>
+      <hr />
+    <h1>News page</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed repellendus iusto praesentium quam maxime. Quas est, optio debitis, ducimus inventore dignissimos iste reiciendis voluptatum cupiditate id rem accusamus beatae architecto.</p>
+    <hr />
+    <table class="table-user">
+        <tr>
+            <th>Name</th>
+            <th>age</th>
+            <th>course</th>
+            <th rowspan="3">option</th>
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2" class="">Son</td>
+            
+            <td>HTML</td>
+        </tr>
+        <tr>
+            
+            
+            <td>HTML</td>
+        </tr>
+        <tr>
+            <td colspan="2">Son</td>
+            
+            <td colspan="2">HTML</td>
+        </tr>
+    </table>
+    <h1>Contact Page</h1>
+    <hr />
+    <h3>Plase fill-in form</h3>
+    <form action="./index.html" method="GET">
+        <fieldset>
+            <legend>User Info</legend>
+        <label>First Name<br>
+            <input type="text" name="fname" /><br><br>
+        </label>
+        <label>Last Name<br>
+            <input type="text" name="lname" /><br><br>
+        </label>
+            
+            <input type="submit" value="Submit" ><br><br><br>
+            <fieldset>
+                <legend>Course</legend>
+            <label>
+                <p>Course</p>
+                <input type="radio" name="course" value="html">HTML<br>
+            </label>
+            <label>
+                <input type="radio" name="course" value="css">CSS<br>
+            </label>
+            <label>
+                <input type="radio" name="course" value="js">JavaScript<br><br>
+            </label>
+        </fieldset>
+            <p>Framework</p>
+            <label>
+            <input type="radio" value="React">React
+            </label>
+            <label>
+            <input type="radio" name="framework" value="Angular">Angukar
+            </label><br><br>
+            <button>ok</button>
+            <button type="button">ok2</button>
+            <input type="submit" name="framework" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>
